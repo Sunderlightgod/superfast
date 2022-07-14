@@ -62,3 +62,7 @@ if SuperFastMode then
 	cac=task.wait
 else
 	cac=wait
+end
+while cac() do 
+	AttackNoCD()
+end
